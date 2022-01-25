@@ -1,0 +1,62 @@
+
+body
+{
+  padding: 0;
+  margin: 0;
+  background-color: #8B9A46;
+  font-family: 'Ubuntu Mono', monospace;
+  color: lightblue;
+  font-weight: bold;
+  /* font-family: 'Mali', cursive; */
+  background-image: url(../assets/back15.jpg);
+  background-size: cover;
+}
+
+
+h1{
+    letter-spacing: 10px;
+font-family: 'Satisfy', cursive;
+  color: #93FFD8;
+  text-align: center;
+  font-size:70px;
+}
+
+h2{
+  padding: 30px;
+font-family: 'Satisfy', cursive;
+  letter-spacing: 5px;
+  font-size: 35px;
+  color: #F5EEDC;
+}
+
+.tables{
+
+    margin-left: auto;
+    margin-right: auto;
+font-size: 20px;
+}
+
+th{
+  color: #FF6363;
+}
+
+td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+ol li{
+list-style-type: none;
+}
+
+ul li{
+  list-style-type: disc;
+padding-left: 300px;
+}
+
+.ordlis{
+
+  padding-left: 100px;
+  font-size: 20px;
+}
