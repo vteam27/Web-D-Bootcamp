@@ -1,149 +1,185 @@
-body{
-    font-family: "Montserrat";
+/* Universal css */
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
-#title{
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+    line-height: 1.5;
+}
+.white-section{
+    background-color: #fff;
+}
+.colored-section{
   background-color: #ff4c68;
   color: #fff;
 }
-h1{
-  font-family: 'Montserrat-Black', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-  .container-fluid{
+
+
+.container-fluid {
   padding: 3% 15% 8%;
 }
-h2{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
+
+
+/* Title */
+#title {
+text-align: left;
 }
+
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
 /* Navigation Bar */
-.navbar{
-padding: 0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-size: 2.5rem;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
 }
-.nav-item{
+
+.nav-item {
   padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
   font-family: "Montserrat";
   font-size: 1.2rem;
   font-weight: 300;
 }
+
 /* Button */
-  .download-button{
-    margin:5% 3% 5% 0;
-  }
+.download-button {
+  margin: 5% 3% 5% 0;
+}
 
-  /* title image */
-  .timg{
-    position: relative;
-  }
-  .title-image{
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right:30%;
-    }
-  /* features */
-  #features{
-    padding: 7% 15%;
-    background-color: white;
-    position: relative;
-  }
-  .feature-list{
-    line-height: 1.5rem;
-    text-align: center;
-    color: #ef8172;
-  }
-  .feature-list p{
-      color: #8f8f8f;
-      font-weight: bold;
-      padding:0 5%;
-  }
 
-   .feature-list h3{
-    font-family: "Montserrat";
-    font-weight: bold;
-    color: black;
-  }
-  .feature-img{
-    color:#ef8172;
-    padding-bottom: 5%;
-  }
-  .feature-img:hover{
-    color: #ff4c68;
-  }
-  /* Testimonials */
-  #testimonials{
-    text-align: center;
-    background-color: #ef8172;
-    color: white;
-  }
-  .carousel-item{
-    padding: 7% 15%;
-  }
-  .testimonial-image{
-    width: 10%;
-    border-radius:100%;
-    margin: 20px;
-  }
-  #press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-  }
-  .press-logo{
-    width: 15%;
-    margin:20px 20px 50px;
-  }
+/* title image */
+.timg {
+  position: relative;
+}
 
-  /* Pricing */
-#pricing{
-  text-align: center;
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-list {
+  line-height: 1.5rem;
+
+  color: #ef8172;
+}
+
+.feature-list p {
+  color: #8f8f8f;
+  font-weight: bold;
+  padding: 0 5%;
+}
+
+.feature-list h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: black;
+}
+
+.feature-img {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+
   padding: 100px;
 }
-.pricing-column{
-  padding:3% 2%;
+
+.pricing-column {
+  padding: 3% 2%;
 }
-#cta{
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 30% 2%;
+
+#cta {
+  padding: 7% 30%;
 }
-#cta h3{
+
+#cta h3 {
   color: white;
   font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
 }
 
-#footer{
-    background-color: #fff;
-    padding: 5% 15%;
-    text-align: center;
+#footer {
+  padding: 5% 15%;
+
 }
-#footer p{
-    color: #8f8f8f;
-    font-weight: bold;
-    padding:0 3%;
+
+#footer p {
+  color: #8f8f8f;
+  font-weight: bold;
+  padding: 0 3%;
 }
-.imgfoot{
-margin: 20px 10px;
+
+.imgfoot {
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
-  .title-image{
-position:static;
-transform: rotate(0deg);
-}
-#title{
-  text-align: center;
-}
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
