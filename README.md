@@ -1,3 +1,2 @@
-# hello-world
-My first github repo to learn and explore.
-I am a Computer Science undergraduate from India.
+# Web-D Projects
+This Repo contains the projects I did while learning Web Development.
