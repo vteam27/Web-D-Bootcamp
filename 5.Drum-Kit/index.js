@@ -6,7 +6,6 @@ document.querySelectorAll(".drum").forEach(el => el.addEventListener("click",fun
 document.addEventListener("keydown",function(e){
 makeSound(e.key);
  })
-
 function makeSound(pressedKey)
 {
   switch (pressedKey) {
@@ -46,6 +45,10 @@ function makeSound(pressedKey)
                  var snare = new Audio("sounds/snare.mp3");
                  snare.play();
                  break;
+              case "p":
+              var hub = new Audio("sounds/hub.mp3");
+              hub.play();
+              break;
 
              default: console.log( pressedKey );
              return;
