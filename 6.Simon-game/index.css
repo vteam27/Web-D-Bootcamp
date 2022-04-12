@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(5, 23, 69);
+}
+.wrong{
+    background-color: rgb(255, 0, 0);
+}
+h1{
+    color:rgb(236, 234, 177);
+    font-family: 'VT323', monospace;
+    font-size: 5rem;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 0.3ch;
+    text-shadow: 1px 1px 5px black;
+}
+.box-container{
+    width: 50%;
+margin: auto;
+text-align: center;
+}
+.box{
+    height: 220px;
+    width: 220px;
+    border-style: solid;
+    border-radius: 20%;
+    border-width: 10px;
+    display: inline-block;
+    margin: 30px;
+}
+.green
+{
+    background-color: green;
+}
+.red
+{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}

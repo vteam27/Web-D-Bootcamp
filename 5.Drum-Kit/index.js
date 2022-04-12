@@ -2,6 +2,8 @@ document.querySelectorAll(".drum").forEach(el => el.addEventListener("click",fun
 {
   makeSound(this.innerHTML);
 } ));
+window.onload = function() {var hub = new Audio("sounds/hub.mp3");
+hub.play();}
 
 document.addEventListener("keydown",function(e){
 makeSound(e.key);
